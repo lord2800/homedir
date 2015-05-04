@@ -1,0 +1,16 @@
+.DS_Store
+Movies
+Desktop
+Documents
+Downloads
+Library
+Music
+Pictures
+Projects
+Public
+.account
+.bash_history
+.ssh/id_rsa*
+.esets
+.CFUserTextEncoding
+.ssh/known_hosts
