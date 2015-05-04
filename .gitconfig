@@ -7,3 +7,5 @@
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
+[push]
+	default = simple

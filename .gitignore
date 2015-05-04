@@ -14,3 +14,9 @@ Public
 .esets
 .CFUserTextEncoding
 .ssh/known_hosts
+.vagrant.d
+.composer
+.gem
+Virtualbox VMs
+!.vagrant.d/Vagrantfile
+.lesshst
