@@ -5,6 +5,7 @@
 	re = pull --rebase --ff-only upstream master
 	rf = pull --rebase --ff-only
 	up = pull --rebase --ff-only upstream
+	fall = fetch --all --prune
 	amend = !git add -p && git commit --amend
 [user]
 	name = Jeff Hubbard
