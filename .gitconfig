@@ -3,6 +3,8 @@
 	co = checkout
 	cont = rebase --continue
 	re = pull --rebase --ff-only upstream master
+	rf = pull --rebase --ff-only
+	up = pull --rebase --ff-only upstream
 	amend = !git add -p && git commit --amend
 [user]
 	name = Jeff Hubbard
