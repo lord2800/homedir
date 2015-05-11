@@ -8,7 +8,7 @@ DNVM="$(brew --prefix dnvm)/bin/dnvm.sh"
 NVM="$(brew --prefix nvm)/nvm.sh"
 PHP_VERSION="$(brew --prefix php-version)/php-version.sh"
 GIT_PROMPT="$(brew --prefix git)/etc/bash_completion.d/git-prompt.sh"
-GIT_COMPETE="$(brew --prefix git)/etc/bash_completion.d/git-completion.bash"
+GIT_COMPLETE="$(brew --prefix git)/etc/bash_completion.d/git-completion.bash"
 
 alias ls='ls -lah '
 alias myip='curl -4 icanhazip.com'
@@ -18,6 +18,8 @@ alias flushdns='sudo discoveryutil udnsflushcaches'
 for script in $DNVM $NVM $PHP_VERSION $GIT_PROMPT $GIT_COMPLETE; do
 	if [ -f $script ]; then
 		source $script
+	else
+		echo 'Script $script not found.'
 	fi
 done
 

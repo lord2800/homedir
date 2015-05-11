@@ -20,3 +20,10 @@ Public
 Virtualbox VMs
 !.vagrant.d/Vagrantfile
 .lesshst
+.Trash
+.npm
+.cache
+.node-gyp
+Applications
+.dnx
+.codeintel
