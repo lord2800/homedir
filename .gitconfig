@@ -7,6 +7,7 @@
 	up = pull --rebase --ff-only upstream
 	fall = fetch --all --prune
 	amend = !git add -p && git commit --amend
+	p = push
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
