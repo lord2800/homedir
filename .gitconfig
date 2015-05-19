@@ -8,6 +8,7 @@
 	fall = fetch --all --prune
 	amend = !git add -p && git commit --amend
 	p = push
+	pom = push origin master
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
