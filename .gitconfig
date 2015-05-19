@@ -9,6 +9,7 @@
 	amend = !git add -p && git commit --amend
 	p = push
 	pom = push origin master
+	com = !git co master && git re
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
