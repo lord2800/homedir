@@ -10,6 +10,7 @@
 	p = push
 	pom = push origin master
 	com = !git co master && git re
+	pr = "!f() { hub am -3 https://github.com/$1; }; f"
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
