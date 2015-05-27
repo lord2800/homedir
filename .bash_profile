@@ -23,6 +23,9 @@ for script in $DNVM $NVM $PHP_VERSION $GIT_PROMPT $GIT_COMPLETE; do
 	fi
 done
 
+if [ -f $NVM ]; then nvm use stable; fi
+if [ -f $PHP_VERSION ]; then php-version 5.6; fi
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export PS1="\[$(tput setaf 4)\][\[$(tput setaf 1)\]\w\[$(tput setaf 4)\]]\[$(tput setaf 2)\]\$(__git_ps1)\[$(tput sgr0)\] \\$ \[$(tput sgr0)\]"
