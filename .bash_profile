@@ -14,6 +14,8 @@ alias ls='ls -lah '
 alias myip='curl -4 icanhazip.com'
 alias flushdns='sudo discoveryutil udnsflushcaches'
 
+[ -f "$HOME/.bash_aliases" ] && source $HOME/.bash_aliases
+
 # TODO make this an array or something more consistent
 for script in $DNVM $NVM $PHP_VERSION $GIT_PROMPT $GIT_COMPLETE; do
 	if [ -f $script ]; then
