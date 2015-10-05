@@ -8,25 +8,12 @@ Music
 Pictures
 Projects
 Public
-.account
-.bash_history
-.ssh/id_rsa*
-.esets
-.CFUserTextEncoding
-.ssh/known_hosts
-.vagrant.d
-.composer
-.gem
-Virtualbox VMs
+.*
 !.vagrant.d/Vagrantfile
-.lesshst
-.Trash
-.npm
-.cache
-.node-gyp
+!.ssh/config
 Applications
-.dnx
-.codeintel
-.config
 Code
-.bash_aliases
+Virtualbox VMs
+ReadyCLOUD
+ReadyDROP
+Calibre Library
