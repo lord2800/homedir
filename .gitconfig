@@ -11,6 +11,8 @@
 	pom = push origin master
 	com = !git stash && git co master && git re && git stash pop
 	pr = "!f() { hub am -3 https://github.com/$1; }; f"
+	wip = commit -am 'WIP'
+	unwip = reset --soft HEAD~1
 [user]
 	name = Jeff Hubbard
 	email = lord2800@gmail.com
